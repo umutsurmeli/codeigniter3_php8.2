@@ -124,8 +124,19 @@ class CI_Loader {
 		'unit_test' => 'unit',
 		'user_agent' => 'agent'
 	);
-
-	// --------------------------------------------------------------------
+        public $load;
+        public $benchmark;
+        public $hooks;
+        public $config;
+        public $log;
+        public $utf8;
+        public $uri;
+        public $router;
+        public $output;
+        public $security;
+        public $input;
+        public $lang;
+        // --------------------------------------------------------------------
 
 	/**
 	 * Class constructor
