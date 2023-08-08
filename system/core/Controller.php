@@ -77,6 +77,9 @@ class CI_Controller {
         public $security;
         public $input;
         public $lang;
+        public $db;
+        public $session;
+        public $form_validation;
         /**
 	 * Class constructor
 	 *
