@@ -64,8 +64,8 @@ class CI_Controller {
 	 *
 	 * @var	CI_Loader
 	 */
-	public $load;
-
+		public $load;
+		public $loader;
         public $benchmark;
         public $hooks;
         public $config;
@@ -80,6 +80,7 @@ class CI_Controller {
         public $db;
         public $session;
         public $form_validation;
+        public $email;
         /**
 	 * Class constructor
 	 *
