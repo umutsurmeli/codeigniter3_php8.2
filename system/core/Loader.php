@@ -124,18 +124,28 @@ class CI_Loader {
 		'unit_test' => 'unit',
 		'user_agent' => 'agent'
 	);
-        public $load;
         public $benchmark;
-        public $hooks;
         public $config;
-        public $log;
-        public $utf8;
-        public $uri;
-        public $router;
-        public $output;
-        public $security;
-        public $input;
+        public $db;
+        public $email;
+        public $form_validation;
+        public $hooks;
         public $lang;
+        public $load;
+        public $loader;
+        public $log;
+        public $output;
+        public $router;
+        public $security;
+        public $session;
+        public $uri;
+        public $utf8;
+
+
+
+
+        public $input;
+        
         // --------------------------------------------------------------------
 
 	/**
